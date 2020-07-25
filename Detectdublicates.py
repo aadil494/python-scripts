@@ -10,7 +10,7 @@ dublicates = []
 hash_keys = dict()
 
 #changing current working directory
-os.chdir("C:\\Users\\Aadil\\Pictures\\Nature")
+os.chdir("") # enter path to folder where you wana detect the dublicates 
 
 #Listing out all the files in a current working directory
 file_list = os.listdir(".")
